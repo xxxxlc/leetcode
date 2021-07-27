@@ -19,15 +19,14 @@ class Solution(object):
                 continue
             res[bookings[i][1]] -= bookings[i][2]
             print(res)
-        
+
         for i in range(1, len(res)):
             res[i] += res[i - 1]
-        
+
         return res
 
 
-
 a = Solution()
-bookings = [[1,2,10],[2,3,20],[2,5,25]]
+bookings = [[1, 2, 10], [2, 3, 20], [2, 5, 25]]
 n = 5
 print(a.corpFlightBookings(bookings, n))
