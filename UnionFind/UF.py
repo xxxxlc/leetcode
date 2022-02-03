@@ -13,6 +13,8 @@ class UF(object):
 
             # 最初每棵数只有一个节点，所以初始重要为1
             self.__size.append(1)
+    
+
 
         
 
