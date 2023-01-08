@@ -29,7 +29,7 @@ class Solution(object):
 
             while a != b:
                 if a > b: a //= 2
-                else: b // = 2
+                else: b //= 2
                 res += 1
             queries[i] = res
         
